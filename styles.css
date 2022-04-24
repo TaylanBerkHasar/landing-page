@@ -92,9 +92,9 @@ ul{
     color: white;
 }
 
-.section-two-bg{
-    padding-left: 100px;
-    padding-right: 100px;
+.section-two-bg, .section-four{
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -110,6 +110,7 @@ ul{
 .card-holder{
     display: flex;
     gap: 25px;
+    justify-content: space-between;
 }
 
 .card-imageholder{
@@ -127,3 +128,83 @@ ul{
 .card-text{
     text-align: center;
 }
+
+.section-three{
+    background-color: #e5e7eb;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter{
+    padding-top: 15px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.ad-card{
+    background-color: #3882F6;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color:#F9FAF8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-subtext{
+    font-size: 22px;
+}
+
+.card-right{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.secondary-button{
+    flex: 1;
+    width: 200px;
+    height: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: #e5e7eb;
+    font-size: 22px;
+}
+
+
+
